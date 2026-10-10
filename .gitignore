@@ -1,0 +1,19 @@
+# Local credentials and MCP configuration
+.env
+.env.*
+!.env.example
+.bob/mcp.json
+integration/mcp-config.local.json
+
+# Environments and generated files
+.venv/
+venv/
+node_modules/
+__pycache__/
+*.pyc
+*.log
+*.db
+*.sqlite
+*.sqlite3
+.DS_Store
+Thumbs.db
